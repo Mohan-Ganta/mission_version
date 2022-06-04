@@ -360,11 +360,11 @@ h1, h2, h3, h4, h5, h6 {
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
-  width: 100%;
+  width:auto;
   height: 100vh;
-  background: url("../img/Background.jpeg") top center;
-  background-size: cover;
-  position: relative;
+  background: src="../mission_version/assets/img/Swarnandhra_college_in_drone_view.mp4" type="video/mp4" , top center;
+  background-size:contain;
+  position:relative;
   padding: 0;
 }
 #hero:before {
@@ -441,6 +441,8 @@ h1, h2, h3, h4, h5, h6 {
 @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
+    width: 100%;
+    height: auto;
   }
 }
 @media (max-width: 768px) {
