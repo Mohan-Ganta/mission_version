@@ -362,7 +362,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width:auto;
   height: 100vh;
-  background: src="../mission_version/assets/img/Swarnandhra_college_in_drone_view.mp4" type="video/mp4" , top center;
+  /* background: src="../mission_version/assets/img/Swarnandhra_college_in_drone_view.mp4" type="video/mp4" , top center; */
   background-size:contain;
   position:relative;
   padding: 0;
